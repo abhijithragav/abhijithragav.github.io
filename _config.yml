@@ -7,7 +7,7 @@ image:            "abhijith.jpg"
 tagline:          'Research Intern at Synergy Labs, CMU'
 description:      'Research Intern at Synergy Labs, CMU interested in Applied ML and Systems.'
 url:              https://abhijithragav.com
-baseurl:          ""
+# baseurl:          ""
 
 author:
   name:           'Abhijith Ragav'
