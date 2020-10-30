@@ -1,0 +1,31 @@
+ICMLA2019:
+  authors:
+    - Abhijith Ragav
+    - Nanda H Krishna
+    - Naveen Narayanan
+    - Kevin Thelly
+    - Vineeth Vijayaraghavan
+  year: "2019"
+  title: "Scalable Deep Learning for Stress and Affect Detection on Resource-Constrained Devices"
+  conference: "18th IEEE International Conference on Machine Learning and Applications (ICMLA)"
+  git: "https://github.com/abhijithragav/StressAffectDetection"
+  misc:
+    icon: fas fa-file
+    link: https://drive.google.com/file/d/1sX-JOGDlmuNx6m0YPXE1xNpARwheU44v/view
+    text: "Slides"
+  status: Published
+  url: "https://google.com"
+  
+  
+FICC2020:
+  authors:
+    - Abhijith Ragav
+    - Sai Vishwanath Venkatesh
+    - Ramanathan Murugappan
+    - Vineeth Vijayaraghavan
+  year: "2020"
+  title: "A Two-Stage Machine Learning Approach to Forecast the Lifetime of Movies in a Multiplex"
+  conference: "Future of Information and Communication Conference 2020 (FICC)"
+  git: "https://github.com/abhijithragav/MovieLifetimePrediction"
+  status: Published
+  url: "v"

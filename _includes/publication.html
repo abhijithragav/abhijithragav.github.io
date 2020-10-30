@@ -1,0 +1,36 @@
+{% assign publication = include.publication %}
+{% if publication.url %}
+    <a href="{{ publication.url }}">
+        <b>{{ publication.title }}</b>
+    </a>
+{% else %}
+    <i>{{ publication.title }}</i>
+{% endif %}
+<br>
+{% for author in publication.authors %}
+    {% if author == "Abhijith Ragav" %}
+        <b><u>{{ author }}</u></b>{% if forloop.last == false %},{% endif %}
+    {% else %}
+        {{ author }}{% if forloop.last == false %},{% endif %}
+    {% endif %}
+{% endfor %}
+<br>
+<i>{{ publication.conference }}</i>
+{% if publication.status != "Published" %}
+    ({{ publication.status }})
+{% endif %}
+<br>
+{% if publication.award %}
+    <b>{{ publication.award }}</b>
+    <br>
+{% endif %}
+{% if publication.git %}
+    <i class="fab fa-github"></i> <a href="{{ publication.git }}" style="color: #000">Code</a>&nbsp;&nbsp;
+{% endif %}
+{% if publication.misc %}
+    <i class="{{ publication.misc.icon }}"></i> <a href="{{ publication.misc.link }}" style="color: #000">{{ publication.misc.text }}</a>
+{% endif %}
+{% if publication.git or publication.misc %}
+    <br>
+{% endif %}
+<br>

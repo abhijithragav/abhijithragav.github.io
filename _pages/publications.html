@@ -1,0 +1,11 @@
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+<div style="height: 0.6em;"></div>
+{% for publication_id in site.data.publications %}
+	{% assign current = publication_id[1] %}
+  {% include publication.html publication=current %}
+{% endfor %}

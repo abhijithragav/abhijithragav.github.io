@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         kramdown
+
+# Setup
+title:            Abhijith Ragav
+image:            "abhijith.jpg"
+tagline:          'Research Intern at Synergy Labs, CMU'
+description:      'Research Intern at Synergy Labs, CMU interested in Applied ML and Systems.'
+url:              https://abhijithragav.com
+baseurl:          /
+plugins:
+  - jekyll-gist
+  
+author:
+  name:           'Abhijith Ragav'
+  url:            https://github.com/abhijithragav
+
+include:
+  - _pages/
+  - _posts/
