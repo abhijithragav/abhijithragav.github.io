@@ -6,6 +6,7 @@
         <br>
       {% assign base = site.baseurl | append: "/" %}
       <div style="text-align: center;">
+        <a href="mailto:abhijith.ragh@gmail.com"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i></a>
         <a href="https://github.com/abhijithragav"><i class="fab fa-github"></i></a>
         <a href="https://linkedin.com/in/abhijithragav"><i class="fab fa-linkedin"></i></a>
         <a href="https://scholar.google.com/citations?hl=en&user=uaIYAlUAAAAJ"><i class="fa fa-graduation-cap"></i></a>
@@ -35,8 +36,9 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+      <a class="sidebar-nav-item" href="{{ node.url }}/public/Abhijith_Resume.pdf"><span class="side-link">Resume</span></a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}</p>
+    <p>&copy; {{ site.time | date: '%Y' }} Abhijith Ragav</p>
   </div>
 </div>

@@ -11,10 +11,10 @@ ICMLA2019:
   git: "https://github.com/abhijithragav/StressAffectDetection"
   misc:
     icon: fas fa-file
-    link: https://drive.google.com/file/d/1sX-JOGDlmuNx6m0YPXE1xNpARwheU44v/view
+    link: https://drive.google.com/file/d/1IgwRkAtbHPfJa4GmGqeomv0YStDUxDZh/view?usp=sharing
     text: "Slides"
   status: Published
-  url: "https://google.com"
+  url: "https://ieeexplore.ieee.org/abstract/document/8999216"
   
   
 FICC2020:
@@ -28,4 +28,4 @@ FICC2020:
   conference: "Future of Information and Communication Conference 2020 (FICC)"
   git: "https://github.com/abhijithragav/MovieLifetimePrediction"
   status: Published
-  url: "v"
+  url: "https://link.springer.com/chapter/10.1007/978-3-030-39442-4_36"
