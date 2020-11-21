@@ -1,3 +1,23 @@
+NeurIPS2020:
+  authors:
+    - Abhijith Ragav*
+    - Gautham Krishna Gudur*
+  year: "2020"
+  title: "Bayesian Active Learning for Wearable Stress and Affect Detection"
+  conference: "Poster presentation at NeurIPS workshop on Machine Learning for Mobile Health (ML4MH) 2020"
+  status: Published
+  url: "https://abhijithragav.com/publications"
+
+ICASSP2021:
+  authors:
+    - Prithvi Suresh*
+    - Abhijith Ragav*
+  year: "2021"
+  title: "WaDeNet: Wavelet Decomposition based CNN for Speech Processing"
+  conference: "46th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2021"
+  status: Under Review
+  url: "https://arxiv.org/pdf/2011.05594.pdf"
+
 ICMLA2019:
   authors:
     - Abhijith Ragav
