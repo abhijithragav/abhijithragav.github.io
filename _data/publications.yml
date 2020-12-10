@@ -1,4 +1,4 @@
-NeurIPS2020:
+NeurIPS2020_ML4MH:
   authors:
     - Abhijith Ragav*
     - Gautham Krishna Gudur*
@@ -7,6 +7,18 @@ NeurIPS2020:
   conference: "Poster presentation at NeurIPS workshop on Machine Learning for Mobile Health (ML4MH) 2020"
   status: Published
   url: "/public/Bayesian_Active_Learning_for_Wearable_Stress_and_Affect_Detection.pdf"
+
+NeurIPS2020_Bayesian:
+  authors:
+    - Gautham Krishna Gudur
+    - Abhijith Ragav
+    - Prahalathan Sundaramoorthy
+    - Venkatesh Umaashankar
+  year: "2020"
+  title: "Bayesian Active Learning for Wearable and Mobile Health"
+  conference: "Poster at NeurIPS Europe meetup on Bayesian Deep Learning 2020"
+  status: Published
+  url: "/public/Bayesian_Active_Learning_for_Wearable and_Mobile_Health.pdf"
 
 ICASSP2021:
   authors:
