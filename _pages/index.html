@@ -13,12 +13,25 @@ permalink: /
     <a href="#projects">Projects</a>
     <a href="#service">Service</a>
   </div>
-  <div class="topnav-social">
-    <a href="{{ site.social.github }}" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
-    <a href="{{ site.social.scholar }}" aria-label="Google Scholar"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
-    <a href="{{ site.social.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-    <a href="{{ site.social.resume }}" aria-label="Résumé"><i class="fas fa-file" aria-hidden="true"></i></a>
-    <a href="mailto:{{ site.social.email }}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  <div class="topnav-social" role="group" aria-label="Profile links">
+    <a class="topnav-action" href="{{ site.social.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+      <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span>
+    </a>
+    <a class="topnav-action" href="{{ site.social.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile">
+      <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+      <span><span class="scholar-label-long">Google Scholar</span><span class="scholar-label-short">Scholar</span></span>
+    </a>
+    <a class="topnav-action" href="{{ site.social.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+      <i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span>
+    </a>
+    <a class="topnav-action topnav-action-resume" href="{{ site.social.resume }}" target="_blank" rel="noopener noreferrer" aria-label="View résumé PDF">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i>
+      <span class="resume-label"><span class="resume-label-long">View résumé</span><span class="resume-label-short">Résumé</span></span>
+      <span class="file-type" aria-hidden="true">PDF</span>
+    </a>
+    <a class="topnav-action" href="mailto:{{ site.social.email }}" aria-label="Email Abhijith Ragav">
+      <i class="fas fa-envelope" aria-hidden="true"></i><span>Email</span>
+    </a>
   </div>
 </nav>
 
