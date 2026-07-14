@@ -1,63 +1,79 @@
-NeurIPS2020_ML4MH:
+- id: REMI_KDD2025
+  year: "2025"
+  title: "REMI: A Novel Causal Schema Memory Architecture for Personalized Lifestyle Recommendation Agents"
   authors:
-    - Abhijith Ragav*
-    - Gautham Krishna Gudur*
-  year: "2020"
-  title: "Bayesian Active Learning for Wearable Stress and Affect Detection"
-  conference: "Poster presentation at NeurIPS workshop on Machine Learning for Mobile Health (ML4MH) 2020"
-  status: Published
-  url: "/public/Bayesian_Active_Learning_for_Wearable_Stress_and_Affect_Detection.pdf"
+    - Vishal Raman
+    - Vijai Aravindh R
+    - Abhijith Ragav
+  venue: "Workshop on Online and Adaptive Recommender Systems (OARS) at KDD 2025 — Toronto, Canada"
+  links:
+    - text: "PDF"
+      icon: "fas fa-file-pdf"
+      url: "https://oars-workshop.github.io/papers/Raman2025.pdf"
+    - text: "arXiv"
+      icon: "fas fa-file-alt"
+      url: "https://arxiv.org/abs/2509.06269"
 
-NeurIPS2020_Bayesian:
+- id: BDL_NeurIPS2020
+  year: "2020"
+  title: "Bayesian Active Learning for Wearable and Mobile Health"
   authors:
     - Gautham Krishna Gudur
     - Abhijith Ragav
     - Prahalathan Sundaramoorthy
     - Venkatesh Umaashankar
+  venue: "NeurIPS Europe Meetup on Bayesian Deep Learning (BDL) 2020 — Poster / Talk"
+  links:
+    - text: "Slides / Poster"
+      icon: "fas fa-file-alt"
+      url: "https://gauthamkrishna-g.github.io/publications/ALMobileHealth_BDL_NeurIPS20.pdf"
+
+- id: ML4MH_NeurIPS2020
   year: "2020"
-  title: "Bayesian Active Learning for Wearable and Mobile Health"
-  conference: "Poster at NeurIPS Europe meetup on Bayesian Deep Learning 2020"
-  status: Published
-  url: "/public/Bayesian_Active_Learning_for_Wearable and_Mobile_Health.pdf"
-
-ICASSP2021:
+  title: "Bayesian Active Learning for Wearable Stress and Affect Detection"
   authors:
-    - Prithvi Suresh*
-    - Abhijith Ragav*
-  year: "2021"
-  title: "WaDeNet: Wavelet Decomposition based CNN for Speech Processing"
-  conference: "46th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2021"
-  status: Under Review
-  url: "https://arxiv.org/pdf/2011.05594.pdf"
+    - Abhijith Ragav
+    - Gautham Krishna Gudur
+  venue: "Workshop on Machine Learning for Mobile Health (ML4MH) at NeurIPS 2020 — Poster"
+  links:
+    - text: "arXiv"
+      icon: "fas fa-file-alt"
+      url: "https://arxiv.org/abs/2012.02702"
 
-ICMLA2019:
+- id: FICC2020
+  year: "2020"
+  title: "A Two-Stage Machine Learning Approach to Forecast the Lifetime of Movies in a Multiplex"
+  authors:
+    - Abhijith Ragav
+    - Sai Vishwanath Venkatesh
+    - Ramanathan Murugappan
+    - Vineeth Vijayaraghavan
+  venue: "Future of Information and Communication Conference (FICC) 2020 — San Francisco, USA"
+  links:
+    - text: "Springer"
+      icon: "fas fa-file-alt"
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-39442-4_36"
+    - text: "Code"
+      icon: "fab fa-github"
+      url: "https://github.com/abhijithragav/MovieLifetimePrediction"
+
+- id: ICMLA2019
+  year: "2019"
+  title: "Scalable Deep Learning for Stress and Affect Detection on Resource-Constrained Devices"
   authors:
     - Abhijith Ragav
     - Nanda H Krishna
     - Naveen Narayanan
     - Kevin Thelly
     - Vineeth Vijayaraghavan
-  year: "2019"
-  title: "Scalable Deep Learning for Stress and Affect Detection on Resource-Constrained Devices"
-  conference: "18th IEEE International Conference on Machine Learning and Applications (ICMLA)"
-  git: "https://github.com/abhijithragav/StressAffectDetection"
-  misc:
-    icon: fas fa-file
-    link: https://drive.google.com/file/d/1IgwRkAtbHPfJa4GmGqeomv0YStDUxDZh/view?usp=sharing
-    text: "Slides"
-  status: Published
-  url: "https://ieeexplore.ieee.org/abstract/document/8999216"
-  
-  
-FICC2020:
-  authors:
-    - Abhijith Ragav
-    - Sai Vishwanath Venkatesh
-    - Ramanathan Murugappan
-    - Vineeth Vijayaraghavan
-  year: "2020"
-  title: "A Two-Stage Machine Learning Approach to Forecast the Lifetime of Movies in a Multiplex"
-  conference: "Future of Information and Communication Conference 2020 (FICC)"
-  git: "https://github.com/abhijithragav/MovieLifetimePrediction"
-  status: Published
-  url: "https://link.springer.com/chapter/10.1007/978-3-030-39442-4_36"
+  venue: "18th IEEE International Conference on Machine Learning and Applications (ICMLA) 2019 — Florida, USA"
+  links:
+    - text: "IEEE"
+      icon: "fas fa-file-alt"
+      url: "https://ieeexplore.ieee.org/abstract/document/8999216"
+    - text: "Slides"
+      icon: "fas fa-file"
+      url: "https://drive.google.com/file/d/1IgwRkAtbHPfJa4GmGqeomv0YStDUxDZh/view"
+    - text: "Code"
+      icon: "fab fa-github"
+      url: "https://github.com/abhijithragav/StressAffectDetection"

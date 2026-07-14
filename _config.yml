@@ -1,18 +1,34 @@
 # Dependencies
 markdown:         kramdown
 
-# Setup
+# Site
 title:            Abhijith Ragav
 image:            "abhijith.jpg"
-tagline:          'CS Grad Student, Georgia Tech'
-description:      'CS Grad Student, Georgia Tech'
-url:              https://abhijithragav.com
+tagline:          'Applied Scientist at Amazon'
+description:      'Applied Scientist at Amazon working on machine learning for fraud prevention, payment-risk, graph learning, and agentic LLM systems.'
+url:              https://abhijithragav.github.io
 # baseurl:          ""
 
 author:
   name:           'Abhijith Ragav'
   url:            https://github.com/abhijithragav
 
+# Social / links used across the site
+social:
+  email:    abhijith.ragh@gmail.com
+  github:   https://github.com/abhijithragav
+  linkedin: https://linkedin.com/in/abhijithragav
+  scholar:  https://scholar.google.com/citations?hl=en&user=uaIYAlUAAAAJ
+  resume:   /public/Abhijith_Ragav_Resume.pdf
+
+# Google Analytics (leave blank to disable)
+google_analytics: G-0KJ8BN43Y2
+
 include:
   - _pages
-  
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

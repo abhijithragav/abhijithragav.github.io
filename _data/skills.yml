@@ -1,0 +1,17 @@
+- group: "Graph & Knowledge-Graph ML"
+  items: "Knowledge graphs, temporal graphs (Temporal GNNs), entity/interaction graphs, multi-hop relational reasoning, link prediction, community detection · NebulaGraph/NGQL, PyTorch Geometric, DGL, NetworkX"
+
+- group: "Reinforcement Learning"
+  items: "GRPO, PPO, reward modeling, adversarial red-teaming agents, autonomous policy probing"
+
+- group: "LLMs & Agentic AI"
+  items: "Agentic AI systems, agentic RAG, multi-agent orchestration, LLM pipeline design, parameter-efficient fine-tuning (QLoRA), prompt design & evaluation, Amazon Bedrock (agents, knowledge bases, guardrails)"
+
+- group: "Core ML"
+  items: "Transformers (tabular & sequence), gradient-boosted trees (XGBoost/LightGBM), anomaly detection, self-supervised representation learning, Bayesian active learning, calibration & thresholding"
+
+- group: "Production ML"
+  items: "Large-scale feature pipelines (logs / graphs / clickstream), offline & online evaluation, A/B testing, drift monitoring, low-latency serving under strict SLAs"
+
+- group: "Tools & Cloud"
+  items: "Python, C/C++, SQL · PyTorch, Hugging Face Transformers, scikit-learn, Pandas/NumPy, Docker · AWS (Bedrock, SageMaker, EC2, S3, Lambda)"

@@ -4,75 +4,169 @@ title: About
 permalink: /
 ---
 
-<h1>
-  About me
-</h1>
-<p style="text-align: justify;">
-	I am a CS Grad Student at Georgia Tech specializing in Machine Learning. Prior to joining GaTech, I was a research intern at Synergy Labs (Carnegie Mellon University) where I worked with Dr. Yuvraj Agarwal. Currently, my research interest involves developing ubiquitous, accessible, and unobtrusive solutions that have a profound impact on people, leveraging the latest advancements in AI and Deep Learning. During my undergraduation, I worked on solutions for bettering mental health using physiological signals, which lead to publications in international conferences. Apart from this, I love playing sport, cricket being my favourite, and enjoy listening to music. Feel free to email me if you would like to connect.</p>
+<!-- ============ STICKY QUICK-NAV ============ -->
+<nav class="topnav" aria-label="Primary">
+  <a class="topnav-brand" href="#top">Abhijith Ragav</a>
+  <div class="topnav-links">
+    <a href="#about">About</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#service">Service</a>
+  </div>
+  <div class="topnav-social">
+    <a href="{{ site.social.github }}" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+    <a href="{{ site.social.scholar }}" aria-label="Google Scholar"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
+    <a href="{{ site.social.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <a href="{{ site.social.resume }}" aria-label="Résumé"><i class="fas fa-file" aria-hidden="true"></i></a>
+    <a href="mailto:{{ site.social.email }}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  </div>
+</nav>
 
-<h2>News</h2>
+<span id="top"></span>
 
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-  
-<!-- The Timeline -->
+<!-- ============ HERO CARD ============ -->
+<section class="card hero-card">
+  <img class="avatar" src="/{{ site.image }}" alt="Portrait of Abhijith Ragav">
+  <div class="hero-body">
+    <h1 class="name">Abhijith Ragav</h1>
+    <p class="role">Applied Scientist II · <a href="https://www.amazon.science/">Amazon</a></p>
+    <p class="hero-bio">
+      I build machine-learning systems that protect checkout and stop fraud at scale — blending
+      <strong>temporal graph learning</strong>, <strong>knowledge graphs</strong>,
+      <strong>transformer models</strong>, and <strong>agentic LLM &amp; reinforcement-learning systems</strong>.
+    </p>
+  </div>
+</section>
 
-<ul class="timeline">
+<!-- ============ ABOUT + (NEWS / EXPERIENCE) ROW ============ -->
+<div class="grid grid-wide-narrow">
+  <div class="stack">
+    <section class="card" id="about">
+      <h2 class="chip"><i class="fas fa-user" aria-hidden="true"></i> About</h2>
+      <p>
+        I'm an Applied Scientist at Amazon's Worldwide Buyer Risk Prevention team, where I build
+        machine-learning systems that protect checkout and stop fraud and bad actors at scale. My work
+        blends temporal graph learning over customer–device–payment interactions, knowledge graphs for
+        behavioral profiling, transformer models for tabular and anomaly signals, and agentic LLM
+        systems for automation — including a reinforcement-learning (GRPO) agent that adversarially
+        red-teams production fraud-decisioning systems to surface evasion paths before they're exploited.
+      </p>
+      <p>
+        Before Amazon I earned my M.S. in Computer Science at Georgia Tech, interned on
+        autonomous-driving perception at Aeva, and was a research assistant at Carnegie Mellon's
+        Synergy Labs. Feel free to <a href="mailto:{{ site.social.email }}">reach out</a> to connect.
+      </p>
+    </section>
 
-	<!-- Item 1 -->
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">May '22</span>
-			</div>
-			<div class="desc">Joining Amazon as an Applied Scientist Intern in their Seattle office.</div>
-		</div>
-	</li>
+    <section class="card" id="education">
+      <h2 class="chip chip-edu"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h2>
+      <ul class="exp">
+        {% for e in site.data.education %}
+        <li>
+          <div class="exp-head">
+            <span class="exp-role">{{ e.degree }}</span>
+            <span class="exp-dates">{{ e.dates }}</span>
+          </div>
+          <div class="exp-org">{{ e.org }} · <span class="exp-loc">{{ e.location }}</span></div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
 
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Aug '21</span>
-			</div>
-			<div class="desc">Started my Masters degree in CS at Georgia Tech!</div>
-		</div>
-	</li>
+  <div class="stack">
+    <section class="card">
+      <h2 class="chip chip-news"><i class="fas fa-bullhorn" aria-hidden="true"></i> News</h2>
+      <ul class="news">
+        {% for item in site.data.news %}
+        <li><span class="news-date">{{ item.date }}</span><span class="news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
 
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Oct '20</span>
-			</div>
-			<div class="desc">My paper titled "Bayesian Active Learning for Wearable Stress and Affect Detection" has been accepted for Poster presentation at NeurIPS workshop on Machine Learning for Mobile Health (ML4MH) 2020.</div>
-		</div>
-	</li>
+    <section class="card" id="experience">
+      <h2 class="chip chip-exp"><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</h2>
+      <ul class="exp">
+        {% for e in site.data.experience %}
+        <li>
+          <div class="exp-head">
+            <span class="exp-role">{{ e.role }}</span>
+            <span class="exp-dates">{{ e.dates }}</span>
+          </div>
+          <div class="exp-org">{{ e.org }} · <span class="exp-loc">{{ e.location }}</span></div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>
 
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Jun '20</span>
-			</div>
-			<div class="desc">Internship at CMU comes to an end. It was an amazing 6 months, totally enjoyed it.</div>
-		</div>
-	</li>
+<!-- ============ PUBLICATIONS + (SKILLS / SERVICE) ROW ============ -->
+<div class="grid grid-wide-narrow">
+  <section class="card" id="publications">
+    <h2 class="chip chip-pub"><i class="fas fa-book" aria-hidden="true"></i> Publications</h2>
+    {% for pub in site.data.publications %}
+    <article class="pub">
+      <div class="pub-year">{{ pub.year }}</div>
+      <div class="pub-body">
+        <h3 class="pub-title">
+          {% if pub.links and pub.links.first %}<a href="{{ pub.links.first.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+        </h3>
+        <p class="pub-authors">
+          {% for author in pub.authors %}{% if author == "Abhijith Ragav" %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+        </p>
+        <p class="pub-venue">{{ pub.venue }}</p>
+        {% if pub.links.size > 0 %}
+        <p class="pub-links">
+          {% for link in pub.links %}<a href="{{ link.url }}"><i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.text }}</a>{% endfor %}
+        </p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </section>
 
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Oct '19</span>
-			</div>
-			<div class="desc">My paper titled "Scalable Deep Learning for Stress and Affect Detection on Resource-Constrained Devices" has been accepted at IEEE ICMLA 2019.</div>
-		</div>
-	</li>
+  <div class="stack">
+    <section class="card" id="skills">
+      <h2 class="chip chip-skill"><i class="fas fa-sliders-h" aria-hidden="true"></i> Skills</h2>
+      <ul class="skills">
+        {% for s in site.data.skills %}
+        <li><span class="skill-group">{{ s.group }}:</span> {{ s.items }}</li>
+        {% endfor %}
+      </ul>
+    </section>
 
-	<li>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="flag">Sep '19</span>
-			</div>
-			<div class="desc">Will be doing my undergraduate thesis at Synergy Labs, Carnegie Mellon University. Excited!</div>
-		</div>
-	</li>
-  
-</ul>
+    <section class="card" id="service">
+      <h2 class="chip chip-service"><i class="fas fa-clipboard-check" aria-hidden="true"></i> Peer Review &amp; Service</h2>
+      <ul class="service">
+        {% for s in site.data.service %}
+        <li>
+          <span class="service-role">{{ s.role }}</span>
+          {% if s.url != "" %}<a href="{{ s.url }}">{{ s.venue }}</a>{% else %}<span>{{ s.venue }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>
 
-
+<!-- ============ PROJECTS (full width) ============ -->
+<section class="card" id="projects">
+  <h2 class="chip chip-proj"><i class="fas fa-code-branch" aria-hidden="true"></i> Selected Projects</h2>
+  <div class="cards">
+    {% for proj in site.data.projects %}
+    <article class="mini-card">
+      <div class="card-head">
+        <h3 class="card-title">{{ proj.title }}</h3>
+        <span class="card-year">{{ proj.year }}</span>
+      </div>
+      <p class="card-desc">{{ proj.description }}</p>
+      {% if proj.links.size > 0 %}
+      <p class="card-links">
+        {% for link in proj.links %}<a href="{{ link.url }}"><i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.text }}</a>{% endfor %}
+      </p>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>

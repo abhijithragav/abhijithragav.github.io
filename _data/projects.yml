@@ -1,0 +1,26 @@
+- title: "WaDeNet — Wavelet Decomposition based CNN for Speech Processing"
+  year: "2020"
+  description: "Proposed an end-to-end speech model that embeds discrete wavelet decomposition within the CNN, learning multi-resolution spectral features without a separate feature pipeline; reported a +6.36% average accuracy gain over prior baselines on mobile-health speech tasks with reduced model size and compute. (arXiv preprint.)"
+  links:
+    - text: "arXiv"
+      icon: "fas fa-file-alt"
+      url: "https://arxiv.org/abs/2011.05594"
+
+- title: "BERT Siamese Networks for Similar-Intent Question Identification"
+  year: "2021"
+  description: "Fine-tuned transformer backbones (BERT, GPT-2, XLNet) on Quora Question Pairs (404k pairs) with transitive augmentation; final BERT model reached ~86% test accuracy. Built an unsupervised pipeline (BERT embeddings → PCA → K-means) to narrow candidates, yielding ~100× faster inference for duplicate detection at scale."
+  links:
+    - text: "Code"
+      icon: "fab fa-github"
+      url: "https://github.com/abhijithragav/BERT-Siamese-Networks-For-Similar-Intent-Question-Identification"
+    - text: "Blog"
+      icon: "fas fa-file-alt"
+      url: "https://yashjakhotiya.github.io/blog/nlp/2021/10/03/quora-question-pairs.html"
+
+- title: "ETHViz — Ethereum Network Topology Visualization & Private-Net GUI"
+  year: "2023"
+  description: "Discovered peers from a custom geth light node via Web3's admin.peers(), geolocated IPs, and rendered interactive maps and graphs (React, D3-geo, React-force-graph-3d) backed by a Flask service on AWS EC2. Also built a GUI to connect peers and send transactions on private networks."
+  links:
+    - text: "Code"
+      icon: "fab fa-github"
+      url: "https://github.com/abhijithragav"

@@ -1,0 +1,35 @@
+- role: "Program Committee"
+  venue: "AAAI 2026 — Workshop on Health Intelligence (W3PHIAI-26)"
+  url: ""
+
+- role: "Reviewer"
+  venue: "ICML 2026 — Foundation Models for Structured Data (FMSD)"
+  url: "https://icml-structured-fm-workshop.github.io/call-for-papers/"
+
+- role: "Reviewer"
+  venue: "ICCV 2025 — Multimodal Representation and Retrieval (MRR)"
+  url: "https://mrr-workshop.github.io/"
+
+- role: "Reviewer"
+  venue: "KDD 2025 — Prompt Optimization"
+  url: "https://kdd-prompt-optimization-workshop.github.io/kdd-2025-prompt-optimization/"
+
+- role: "Reviewer"
+  venue: "KDD 2025 — LLMs for E-Commerce (LLM4ECommerce)"
+  url: "https://kdd2025llm4ecommerce.github.io/"
+
+- role: "Reviewer"
+  venue: "KDD 2025 — Structured Knowledge for LLMs (SKnow-LLM)"
+  url: "https://sknowllm.github.io/"
+
+- role: "Reviewer"
+  venue: "KDD 2025 — LLMs for Scientific and Societal Advances (SciSoc)"
+  url: "https://kdd25scisocllm.github.io/"
+
+- role: "Reviewer"
+  venue: "AMLC 2025 — Main Conference & MLoG Workshop"
+  url: ""
+
+- role: "Reviewer"
+  venue: "ICMLA 2020 — Special Session on Deep Learning"
+  url: "https://www.icmla-conference.org/icmla20/specialsessions.html"

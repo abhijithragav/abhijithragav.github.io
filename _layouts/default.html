@@ -4,12 +4,14 @@
   {% include head.html %}
 
   <body>
-
-    {% include sidebar.html %}
-
-    <div class="content container">
+    <main class="wrap">
       {{ content }}
-    </div>
+    </main>
 
+    <footer class="site-footer">
+      <div class="wrap">
+        <p class="footer-note">&copy; {{ site.time | date: '%Y' }} Abhijith Ragav · built with Jekyll, hosted on GitHub Pages</p>
+      </div>
+    </footer>
   </body>
 </html>
